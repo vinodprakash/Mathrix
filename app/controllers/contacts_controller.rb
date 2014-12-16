@@ -30,7 +30,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
 
     respond_to do |format|
-            UserMailer.message_email(@contact).deliver
+      UserMailer.message_email(@contact).deliver
       if @contact.save
         format.html { redirect_to @contact, notice: 'Contact was successfully created.' }
         format.json { render :show, status: :created, location: @contact }
