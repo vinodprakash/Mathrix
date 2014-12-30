@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @register.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @register.email %>
+</p>
+
+<p>
+  <strong>Register no:</strong>
+  <%= @register.register_no %>
+</p>
+
+<p>
+  <strong>College name:</strong>
+  <%= @register.college_name %>
+</p>
+
+<p>
+  <strong>Dept name:</strong>
+  <%= @register.dept_name %>
+</p>
+
+<p>
+  <strong>Mob no:</strong>
+  <%= @register.mob_no %>
+</p>
+
+<%= link_to 'Edit', edit_register_path(@register) %> |
+<%= link_to 'Back', registers_path %>

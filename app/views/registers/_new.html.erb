@@ -1,0 +1,100 @@
+<%= form_for(@register) do |f| %>
+  <% if @register.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@register.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @register.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<h2>Registration Form</h2>
+
+
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="input-group">       
+          <label>Name:</label>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="form-group">
+          <input type="text" name="user[name]"class="form-control" required="required">       
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="input-group">        
+          <label>Email:</label>         
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="form-group">         
+          <input type="email" name="user[email]"class="form-control" required="required">       
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="input-group">
+          <label>Register Number:</label>   
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="form-group">
+          <input type="number" name="user[register_no]"class="form-control" required="required">  
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="input-group">       
+          <label>College Name:</label>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="form-group">
+          <input type="text" name="user[college_name]"class="form-control" required="required">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="input-group">     
+          <label>Department Name:</label>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="form-group">
+          <input type="text" name="user[dept_name]"class="form-control" required="required">   
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="input-group">    
+          <label>Mobile Number:</label>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="form-group">
+          <input pattern="[789][0-9]{9}" type="tel" name="user[mob_no]"class="form-control" required="required">  
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+          <div class="col-sm-12">
+          <div class="form-group">
+          <button type="submit" class="btn btn-success btn-lg">Register</button>
+          </div>
+          </div>
+    </div>
+
+<% end %>
