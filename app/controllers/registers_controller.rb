@@ -10,6 +10,7 @@ class RegistersController < ApplicationController
   # GET /registers/1
   # GET /registers/1.json
   def show
+       redirect_to root_path
   end
 
   # GET /registers/new
@@ -19,6 +20,7 @@ class RegistersController < ApplicationController
 
   # GET /registers/1/edit
   def edit
+       redirect_to root_path
   end
 
   # POST /registers
@@ -28,7 +30,9 @@ class RegistersController < ApplicationController
 
     respond_to do |format|
       if @register.save
-        format.html { redirect_to @register, notice: 'Register was successfully created.' }
+        UserMailer.register_email(@register).deliver
+        UserMailer.admin_email(@register).deliver
+        format.html { redirect_to '/', notice: 'Your Registration is Successfull' }
         format.json { render :show, status: :created, location: @register }
       else
         format.html { render :new }
