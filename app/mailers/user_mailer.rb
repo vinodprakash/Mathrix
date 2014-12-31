@@ -7,12 +7,12 @@ class UserMailer < ActionMailer::Base
   end
 
   def register_email(register)
-    @contact = contact
+    @register = register
     mail(to: 'psvinodprakash@gmail.com', subject: 'User Registered')
   end
 
   def admin_email(register)
-    @contact = contact
+    @register = register
     mail(to: 'psvinodprakash@gmail.com', subject: 'Message')
   end
 end
