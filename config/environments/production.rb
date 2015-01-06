@@ -21,7 +21,7 @@ ActionMailer::Base.smtp_settings = {
   :address   => "smtp.mandrillapp.com",
   :authentication => 'login',
   :port      => 587,
-  :user_name => "krysta@quanta.net.in",
-  :password  => "8KAYUBpGBKwbwHb3Q47MTg"
+  :user_name => "psvinodprakash@gmail.com",
+  :password  => "n3yAt2WJpK-KZ0vw6T4_ew"
 }
 end
