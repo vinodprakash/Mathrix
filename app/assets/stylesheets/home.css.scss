@@ -7,20 +7,17 @@ p.para {
   font-size: 13;
 }
 
-h1.head1{
+.head1{
 	color: #fff;
 	font-family: 'ChunkFiveRegular';
-}
-h4.head1{
-	color: #fff;
-}
-h2.head1{
-	color: #fff;
 }
 
 ol.para {
 	color: #fff;
 }
 h3.head-1{
+	font-family: 'ChunkFiveRegular';
 	color: #000;
 }
+
+.carousel-indicators .active{ background: #31708f; } .content{ margin-top:20px; } .adjust1{ float:left; width:100%; margin-bottom:0; } .adjust2{ margin:0; } .carousel-indicators li{ border :1px solid #ccc; } .carousel-control{ color:#31708f; width:5%; } .carousel-control:hover, .carousel-control:focus{ color:#31708f; } .carousel-control.left, .carousel-control.right { background-image: none; } .media-object{ margin:auto; margin-top:15%; } @media screen and (max-width: 768px) { .media-object{ margin-top:0; } }

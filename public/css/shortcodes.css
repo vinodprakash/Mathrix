@@ -16,14 +16,14 @@
 
 ****************/
 .button:hover {
-  background: #56C16B;
+  background: #ce5151;
   border: 2px solid #56C16B;
 }
 
 .button {
   display: inline-block;
   padding: 20px 60px;
-  color: #D7D7D7;
+  color: #ce5151;
   background: #48A65B;
   border: 2px solid #48A65B;
   font-size: .95em;
@@ -46,7 +46,7 @@
 }
 
 .button.border {
-  color: #D7D7D7;
+  color: #ce5151;
   border: 2px solid #D7D7D7;
   background: none;
 }
