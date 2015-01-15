@@ -590,8 +590,10 @@ background: #FFFFFF !important;
 
 #Grid .mix {
   display: none;
+  margin-left: 20px;
+  margin-right: 20px;
   opacity: 0;
-  width: 33.3333333333%;
+  width: 20%;
   vertical-align: top;
   background: #CCC;
   color: #FFF;
