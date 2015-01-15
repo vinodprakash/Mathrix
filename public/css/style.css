@@ -154,7 +154,7 @@ h6 {
 *******************************/
 
 .green {
-  color: #27AE60;
+  color: #000000;
 }
 
 .red {
@@ -307,6 +307,11 @@ h1.underline-dotted,h2.underline-dotted,h3.underline-dotted,h4.underline-dotted 
   margin: 0;
   font-weight: 300;
 }
+.tagline {
+	color: #fff;
+	text-align: center;
+    margin-right: 10;
+    }
 
 .header {
   margin-top: 0;
