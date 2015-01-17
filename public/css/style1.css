@@ -28,11 +28,7 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
-body {
-	font-family: 'Roboto', sans-serif;
-	 background:#ffffff;
-	font-size:100%;
-}
+
 .wrap {
 	width: 80%;
 	margin: 0px auto;
@@ -62,21 +58,7 @@ body {
 	float: left;
 	margin-right: 10px;
 }
-.menu li.active a,.menu li a:hover{
-	color: #25BEA0;
-}
-.menu li a{
-	font-size: 0.8725em;
-	color: #ffffff;
-	text-transform: uppercase;
-	font-family: 'Roboto', sans-serif;
-	margin:0px 20px;
-	font-weight: 300;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
+
 /*start search*/
 .sb-search {
 	position: absolute;
@@ -162,65 +144,6 @@ body {
 .sb-search.sb-search-open .sb-search-submit,.no-js .sb-search .sb-search-submit {
 	z-index: 90;
 }
-/*-- start-smartphone_nav --*/
-.nav {
-    display:none;
-}
-.nav-item {
-    float:left;
-    *display:inline;
-    zoom:1;
-}
-.nav-item a {
-    display:block;
-}
-.nav-item a:hover {
-	background: #18BD9B;
-	color: #FFFFFF;
-}
-.nav-mobile {
-   display: none;
-	cursor: pointer;
-	position: absolute;
-	top: 5px;
-	left: 5px;
-	background: url(../images/nav_icon.png) 60% 60% no-repeat #313338;
-	height:32px;
-	width: 32px;
-}
-.nav-mobile {
-    display:block;
-}
-.nav {
-	margin-top:44px;
-   width:100%;
-}
-.nav-list {
-    display:none;
-}
-.nav-item {
-    width:100%;
-    float:none;
-}
-.nav-item a {
-	font-weight:400;
-	background: #313338;
-	padding: 10px;
-	text-transform:uppercase;	
-    color:#FFF;
-    -webkit-transition: color .2s linear,background .2s linear;
-	-moz-transition: color .2s linear,background .2s linear;
-	-o-transition: color .2s linear,background .2s linear;
-	transition: color .2s linear,background .2s linear;
-	font-size: 0.8725em;
-}
-.nav-inner {
-   display: none;
-}
-.nav-active, .nav-active-inner .nav-inner {
-     display:block;
-}
-/***************start-service************/
 #services{
 	background:#282A2E;
 	padding:5% 0;
@@ -317,28 +240,7 @@ body {
         text-decoration:none;
 }
 /***************end-servivice************/
-.message {
-	background: url("../images/banner2.jpg") no-repeat;
-	background-size: 100%;
-	padding: 12% 0;
-	text-align: left;
-}
-.message h3{
-	color:#7C7C7C;
-	font-size:4em;
-	font-weight :400;
-}
-.message li{
-	display: inline-block;
-}
-.message li a{
-	color:#ffffff;
-	display:block;
-	font-size:1.5em;
-	font-weight :400;
-	padding: 15px 20px;
-}
-/*--- buttons ---*/
+
 body > div.message > div > div {
 	margin-top: 4%;
 }
