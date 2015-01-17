@@ -357,7 +357,8 @@ margin: auto;
 
 .banner--clone {
   opacity: 1;
-background: #000 !important;
+background: #fff !important;
+font-color:#000;
 }
 
 /************************************************
