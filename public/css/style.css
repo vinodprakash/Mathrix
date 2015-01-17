@@ -322,7 +322,7 @@ h1.underline-dotted,h2.underline-dotted,h3.underline-dotted,h4.underline-dotted 
 .banner {
 
   background-color: #fff;
-  height:80px !important;
+  height:88px !important;
   z-index: 1000;
 }
 
@@ -350,8 +350,10 @@ margin: auto;
 
 .menu-li:hover {
   border-top-style: none;
-  background-color: #27AE60;
-  color: #FFF;
+  background-color: #fff;
+  color: #000;
+  margin-top: 10px;
+  height: 40px;
   transition: background, .7s;
 }
 
@@ -465,7 +467,7 @@ font-color:#000;
   background:rgba(0, 0, 0, 0.45) url(../images/pattern.png) repeat;
   position: absolute;
   width: 100%;
-  top: 80px;
+  top: 88px;
   height: 580px;
 }
 

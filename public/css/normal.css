@@ -271,7 +271,7 @@ html { overflow-y: scroll; }
 
  .w-row .w-row{margin-left:0;margin-right:0} 
 
- .w-col{position:relative;float:left;width:100%;min-height:1px;padding-left:10px;padding-right:10px}
+ .w-col{position:relative;float:left;width:100%;min-height:0px;padding-left:10px;padding-right:10px}
 
  .w-col .w-col{padding-left:0;padding-right:0} 
 
@@ -289,7 +289,10 @@ html { overflow-y: scroll; }
 
  .w-col-7{width:58.333333333333336%} 
 
- .w-col-8{width:66.66666666666666%} 
+ .w-col-8{
+  width:66.66666666666666%;
+  height: 30px;
+} 
 
  .w-col-9{width:75%} 
 
