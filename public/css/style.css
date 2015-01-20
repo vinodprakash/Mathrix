@@ -281,14 +281,11 @@ h1.underline-dotted,h2.underline-dotted,h3.underline-dotted,h4.underline-dotted 
   background: #3a686a;
   border-bottom: 1px solid #34495E;
 }
-.row-back1 {
-  background: ##7d7d7d;
-  border-bottom: 1px solid #34495E;
-}
+
 
 .row-gree {
-  background: #c2b59b;
-  
+  background: #f4e6e6;
+
 }
 /*********************************************
 * Header Style
@@ -376,7 +373,7 @@ font-color:#000;
   height: 76px;
   margin: 0 auto;
   padding-left: 10px;
-  background-image: url(../images/logo.png);
+  background-image: url(/images/logo.png);
   background-position: 100% 45%;
   background-repeat: no-repeat;
   -webkit-transition: all 500ms linear;
