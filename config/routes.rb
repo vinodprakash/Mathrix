@@ -4,6 +4,13 @@ Rails.application.routes.draw do
   resources :contacts
 
   get 'home/index'
+  get 'home/aboutus'
+  get 'home/events'
+  get 'home/gallery'
+  get 'home/sponsors'
+  get 'home/contactus'
+  get 'home/team'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
