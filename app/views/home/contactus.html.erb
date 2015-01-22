@@ -100,6 +100,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 	 </div>
 			   </div>
 			</div>
+			<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+	Click here to Register
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false" >
+	<div class="modal-dialog">
+	<div class="modal-content">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	<h4 class="modal-title" id="myModalLabel">Registration Form</h4>
+	</div>
+	<div class="modal-body">
+	<%= render '/registers/new'%> 
+	</div>
+	<div class="modal-footer">
+	<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+	</div>
+	</div>
+	</div>
+	</div>
 	<div class="social-network">
         <div class="social-network1">
 				<a target="_blank" href="https://www.facebook.com/pages/MathRix/183380621687043?ref=aymt_homepage_panel">

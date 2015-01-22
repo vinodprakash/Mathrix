@@ -5856,12 +5856,11 @@ button.close {
 
 .modal-dialog {
     position: relative;
-    width: auto;
+    width: 100px;
     margin: 10px
 }
 
 .modal-content {
-    position: relative;
     background-color: #fff;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;

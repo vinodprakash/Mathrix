@@ -40,7 +40,7 @@
   width: 16%;
 }
 .portfolio-item .item-inner {
-  margin: 0 20px 20px 0;
+  margin: 0 10px 10px 0;
   text-align: center;
   background: #fff;
   padding: 10px;
@@ -415,3 +415,5 @@ textarea#message {
     -o-transform: scale(1);
   }
 }
+
+
