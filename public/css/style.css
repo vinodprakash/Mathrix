@@ -47,7 +47,7 @@ label{
 }
 .top-menu{
     float:right;
-    margin-top: 7px;
+    margin-top: 27px;
 }
 .top-menu ul li{
     display:inline-block;
@@ -1964,7 +1964,7 @@ form{
 /*-- responsine-design --*/
 @media screen and (max-width: 1366px) {
 	.banner {
-		min-height: 833px;
+		min-height: 558px;
 	}
 	.map iframe {
 		min-height: 500px;
@@ -3357,7 +3357,7 @@ body {
 	background: #282A2E;
 }
 .header{
-	padding: 2% 4%;
+	padding:  10px 10px;
 }
 .logo{
 	float: left;
