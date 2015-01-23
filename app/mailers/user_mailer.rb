@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "MathRix"
+  default from: "from@example.com"
 
   def message_email(contact)
     @contact = contact
