@@ -1855,7 +1855,25 @@ form{
 	outline:0;
 	padding:1em;
 	margin-top: 2em;
-	width: 33%;
+	width: 100%;
+	background:transparent;
+	-webkit-appearance: none;
+	background: none;
+	font-weight:400;
+	font-size: 17px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.contact-section form input[type="email"],.contact-section form textarea{
+	border:1px solid #fff;
+	color:#fff;
+	outline:0;
+	padding:1em;
+	margin-top: 2em;
+	width: 100%;
 	background:transparent;
 	-webkit-appearance: none;
 	background: none;
@@ -1871,6 +1889,9 @@ form{
 	margin: 0 0.092em;
 }
 .contact-section form input[type="text"]:hover,.contact-section form textarea:hover{
+ 	border:1px solid #69e9cf;
+ }
+ .contact-section form input[type="email"]:hover,.contact-section form textarea:hover{
  	border:1px solid #69e9cf;
  }
 .contact-section form textarea{

@@ -2286,7 +2286,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-link {
   font-weight: normal;
-  color: #1B242F;
+  color: #7d8ee2;
   cursor: pointer;
   border-radius: 0;
 }
@@ -5170,10 +5170,10 @@ button.close {
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
-@media (min-width: 908px) {
+@media (min-width: 708px) {
   .modal-dialog {
     width: 600px;
-    margin: 30px auto;
+    margin: 100px auto;
   }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
@@ -5185,7 +5185,7 @@ button.close {
 }
 @media (min-width: 902px) {
   .modal-lg {
-    width: 800px;
+    width: 600px;
   }
 }
 .tooltip {

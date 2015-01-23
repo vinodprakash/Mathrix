@@ -30,9 +30,10 @@ class RegistersController < ApplicationController
     @register = Register.new(register_params)
 
     respond_to do |format|
-              UserMailer.welcome_email(@register).deliver
-              UserMailer.admin_email(@register).deliver
+              
       if @register.save
+        UserMailer.welcome_email(@register).deliver
+        UserMailer.admin_email(@register).deliver
         format.html { redirect_to '/', notice: 'Your Registration is Successfull' }
         format.json { render :show, status: :created, location: @register }
       else

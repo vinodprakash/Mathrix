@@ -11,7 +11,13 @@ Rails.application.routes.draw do
   get 'home/contactus'
   get 'home/team'
 
-
+  
+  get '/gallery' =>'home#gallery'
+  get '/aboutus' =>'home#aboutus'
+  get '/events' =>'home#events'
+ get '/sponsors' =>'home#sponsors'
+  get '/team' =>'home#team'
+  get '/contactus' =>'home#contactus'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
