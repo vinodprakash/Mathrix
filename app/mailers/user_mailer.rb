@@ -8,7 +8,7 @@ class UserMailer < ActionMailer::Base
 
   def welcome_email(register)
     @register = register
-    mail(to: @user.email, subject: 'Welcome to MathRix 15')
+    mail(to: @register.email, subject: 'Welcome to MathRix 15')
   end
 
   def admin_email(register)
