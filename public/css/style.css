@@ -4731,11 +4731,11 @@ body {
 .get-intouch-left-address p a:hover{
 	color:#fff;
 }
-.contact input[type="text"],.contact textarea{
+/*.contact input[type="text"],.contact textarea{
 	padding: 7px;
 	width: 48%;
-	margin: 2% 2% 0 0;
-	background: #222327;
+	/*margin: 2% 2% 0 0;
+	background: #fff;
 	outline: none;
 	color: #959595;
 	font-size:0.92355em;
@@ -4747,7 +4747,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	border:1px solid #222327;
 	-webkit-appearance: none;
-}
+}*/
 .contact input[type="text"]:nth-child(2)
 {
 	margin-right: 0em;
