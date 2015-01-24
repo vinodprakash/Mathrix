@@ -35,7 +35,7 @@ class RegistersController < ApplicationController
         UserMailer.welcome_email(@register).deliver
         UserMailer.admin_email(@register).deliver
         format.html { redirect_to '/', notice: 'Your Registration is Successfull' }
-        format.json { render :show, status: :created, location: @register }
+        format.json { render :show, status: :created }
       else
         format.html { render :new }
         format.json { render json: @register.errors, status: :unprocessable_entity }
