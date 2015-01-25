@@ -2350,12 +2350,12 @@ fieldset[disabled] .btn-link:focus {
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
-  width: 100%;
+  width: 90%;
 }
 .fade {
-  opacity: 0;
-  -webkit-transition: opacity .15s linear;
-          transition: opacity .15s linear;
+  opacity: 0.5;
+  -webkit-transition: opacity .55s linear;
+          transition: opacity .54s linear;
 }
 .fade.in {
   opacity: 1;
@@ -5081,9 +5081,7 @@ button.close {
   background: transparent;
   border: 0;
 }
-.modal-open {
-  overflow: hidden;
-}
+
 .modal {
   position: fixed;
   top: 0;
@@ -5093,7 +5091,6 @@ button.close {
   z-index: 1050;
   display: none;
   overflow: auto;
-  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
@@ -5112,7 +5109,6 @@ button.close {
           transform: translate(0, 0);
 }
 .modal-dialog {
-  position: relative;
   width: auto;
   margin: 10px;
 }
@@ -5132,11 +5128,12 @@ button.close {
 }
 .modal-backdrop.fade {
   filter: alpha(opacity=0);
-  opacity: 0;
+  opacity: 0.5;
+
 }
 .modal-backdrop.in {
   filter: alpha(opacity=50);
-  opacity: 0;
+  opacity: 0.5;
 }
 .modal-header {
   min-height: 16.42857143px;
@@ -5152,11 +5149,10 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 20px;
+  padding: 0px;
 }
 .modal-footer {
   padding: 19px 20px 20px;
-  margin-top: 15px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
@@ -5172,8 +5168,8 @@ button.close {
 }
 @media (min-width: 708px) {
   .modal-dialog {
-    width: 600px;
-    margin: 100px auto;
+    width: 700px;
+    margin:  auto;
   }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
