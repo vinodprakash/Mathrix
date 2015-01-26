@@ -527,8 +527,8 @@ button::-moz-focus-inner {
 .pricing-grid1{
 	width: 28.14%;
 	float: left;
-	/*background: #F4F4F4;*/
-	background-image: url("/images/math.gif");
+	background: #66b3ff;
+	 /* background-image: url("/images/math.gif");*/
 	text-align: center;
 	margin: 3.8% 3.8% 0 0;
 	border-radius: 5px;
@@ -724,7 +724,8 @@ button::-moz-focus-inner {
 .pricing-grid5{
 	width: 28.14%;
 	float: left;
-		background-image: url("/images/dstruct.jpg") ;
+	background: #485f77;
+		/*background-image: url("/images/dstruct.jpg") ;*/
 	text-align: center;
 	margin: 3.8% 3.8% 0 0;
 	border-radius: 5px;
@@ -805,8 +806,8 @@ button::-moz-focus-inner {
 .pricing-grid6{
 	width: 28.14%;
 	float: left;
-	/*background: #F4F4F4;*/
-	background-image: url("/images/model.jpg") ;
+	background: #485f77;
+	/*background-image: url("/images/model.jpg") ;*/
 	text-align: center;
 	margin: 3.8% 3.8% 0 0;
 	border-radius: 5px;
@@ -886,7 +887,8 @@ button::-moz-focus-inner {
 .pricing-grid7{
 	width: 28.14%;
 	float: left;
-	background-image: url("/images/opc.jpg") ;
+	background: #d09d9d;
+	/*background-image: url("/images/opc.jpg") ;*/
 	text-align: center;
 	margin: 3.8% 3.8% 0 0;
 	border-radius: 5px;
@@ -910,7 +912,7 @@ button::-moz-focus-inner {
 	margin-right:0;
 }
 .pricing-grid7 h3 a{
-	background:#c74b7d;
+	background:#6b3f3f;
 	padding: 3% 2%;
 	display: block;
 	color: #FFF;

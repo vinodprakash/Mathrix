@@ -5111,6 +5111,7 @@ button.close {
 .modal-dialog {
   width: auto;
   margin: 10px;
+  margin-top: 20px;
 }
 .modal-content {
   position: relative;
@@ -5139,6 +5140,7 @@ button.close {
   min-height: 16.42857143px;
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
+  background: #e39f4a;
 }
 .modal-header .close {
   margin-top: -2px;
