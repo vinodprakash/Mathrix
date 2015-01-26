@@ -111,6 +111,9 @@ height: 580px;
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
 }
+
+
+
 .banner{
     background:url('/images/bg2.jpg') no-repeat;
     background-size:cover;
@@ -2004,7 +2007,7 @@ form{
 /*-- responsine-design --*/
 @media screen and (max-width: 1366px) {
 	.banner {
-		min-height: 558px;
+		min-height: 553px;
 	}
 	.map iframe {
 		min-height: 500px;
