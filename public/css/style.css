@@ -131,8 +131,8 @@ height: 580px;
 .banner-info h2{
     color:#fff;
     text-transform: uppercase;
-    font-size:5em;
-    font-weight:700;
+    font-size:4em;
+    font-weight:600;
 }
 #note{
 	color: #666666;
@@ -157,7 +157,7 @@ height: 580px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
-    background: #000;
+    background: #222;
     padding: 15px 2.2em;
     border-bottom-right-radius: 25px;
     text-decoration:none;
