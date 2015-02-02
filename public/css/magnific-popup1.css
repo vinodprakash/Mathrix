@@ -527,7 +527,7 @@ button::-moz-focus-inner {
 .pricing-grid1{
 	width: 28.14%;
 	float: left;
-	background: #fff;
+	background: #F4F4F4;
 	 /* background-image: url("/images/math.gif");*/
 	text-align: center;
 	margin: 3.8% 3.8% 0 0;
@@ -607,7 +607,6 @@ button::-moz-focus-inner {
 /*----*/
 .pricing-grid2{
 	width: 28.14%;
-		background: #fff;
 	float: left;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -726,8 +725,7 @@ button::-moz-focus-inner {
 .pricing-grid5{
 	width: 28.14%;
 	float: left;
-	background: #fff;
-		/*background-image: url("/images/dstruct.jpg") ;*/
+	background: #F4F4F4;
 	text-align: center;
 	margin: 3.8% 3.8% 0 0;
 	border-radius: 5px;
@@ -808,8 +806,7 @@ button::-moz-focus-inner {
 .pricing-grid6{
 	width: 28.14%;
 	float: left;
-	background: #fff;
-	/*background-image: url("/images/model.jpg") ;*/
+	background: #F4F4F4;
 	text-align: center;
 	margin: 3.8% 3.8% 0 0;
 	border-radius: 5px;
@@ -889,8 +886,7 @@ button::-moz-focus-inner {
 .pricing-grid7{
 	width: 28.14%;
 	float: left;
-	background: #fff;
-	/*background-image: url("/images/opc.jpg") ;*/
+	background: #F4F4F4;
 	text-align: center;
 	margin: 3.8% 3.8% 0 0;
 	border-radius: 5px;

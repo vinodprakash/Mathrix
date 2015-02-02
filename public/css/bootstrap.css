@@ -5129,12 +5129,10 @@ button.close {
 }
 .modal-backdrop.fade {
   filter: alpha(opacity=0);
-  opacity: 1;
 
 }
 .modal-backdrop.in {
   filter: alpha(opacity=50);
-  opacity: 1;
 }
 .modal-header {
   min-height: 16.42857143px;
