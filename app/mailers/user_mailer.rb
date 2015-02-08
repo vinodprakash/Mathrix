@@ -3,7 +3,7 @@ class UserMailer < ActionMailer::Base
 
   def message_email(contact)
     @contact = contact
-    mail(to: 'psvinodprakash@gmail.com', subject: 'Message')
+    mail(to: 'mathrix15@gmail.com', subject: 'Message')
   end
 
   def welcome_email(register)
@@ -13,6 +13,6 @@ class UserMailer < ActionMailer::Base
 
   def admin_email(register)
     @register = register
-    mail(to: 'psvinodprakash@gmail.com', subject: 'User Registered')
+    mail(to: 'mathrix15@gmail.com', subject: 'User Registered')
   end
 end
