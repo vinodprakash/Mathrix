@@ -118,6 +118,7 @@ height: 580px;
     background:url('/images/bg2.jpg') no-repeat;
     background-size:cover;
     min-height: 990px;
+    width: 100%;
 }
 .banner-info {
     padding-top: 7em;
@@ -180,7 +181,7 @@ height: 580px;
 }
 .form input[type="text"]{
 	padding:10px 10px 12px;
-	width:300px;
+	width:80%;
 	margin:0;
 	border:1px solid #3C3C3C;
 	box-shadow:inset 0px 1px 0px #2E2E2E;
@@ -192,7 +193,7 @@ height: 580px;
 
 .form input[type="email"]{
 	padding:10px 10px 12px;
-	width:300px;
+	width:80%;
 	margin:0;
 	border:1px solid #3C3C3C;
 	box-shadow:inset 0px 1px 0px #2E2E2E;
