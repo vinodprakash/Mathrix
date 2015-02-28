@@ -85,9 +85,23 @@
                <div class="clearfix"></div><br>
                 <h2 style="color: #000; font-size:40px; margin-top:25px; margin-left:360px;" align="left">MathRix' 15</h2>
                 <h4 style="font-size:20px; margin-top:15px; color:#333;">Power of Brains</h4><br><br><br><br><br><br>
-                <a style="margin-top: 100px;" href="/aboutus">Get Started</a>
+                <a style="margin-top: 100px;" data-toggle="modal" data-target="#myModal">Click here to Register</a>
+                
             </div>
-    </div>
+            <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false" >
+                <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-body">
+                <%= render '/registers/new'%> 
+                </div>
+                <div class="modal-footer">
+                <button type="button" style="align:left;" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
     
     <!-- banner-section -->
     <div class="popular-section">

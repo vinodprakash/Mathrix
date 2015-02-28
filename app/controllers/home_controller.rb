@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-  	
+  	  @register = Register.new
   end
   def team
   	
@@ -18,7 +18,6 @@ class HomeController < ApplicationController
   	
   end
   def contactus
-  @register = Register.new
   @contact = Contact.new
   end
 end
