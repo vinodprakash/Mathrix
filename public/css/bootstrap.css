@@ -5125,15 +5125,15 @@ button.close {
           box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
 }
 .modal-backdrop {
-  position: relative;
+  position: fixed;
   
 }
 .modal-backdrop.fade {
-  filter: alpha(opacity=0.5);
+  filter: alpha(opacity=0.8);
 
 }
 .modal-backdrop.in {
-  filter: alpha(opacity=50);
+  filter: alpha(opacity=0.5);
 }
 .modal-header {
   min-height: 16.42857143px;
