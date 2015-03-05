@@ -12,4 +12,4 @@ gem 'spring',        group: :development
 gem 'mailcatcher'
 gem 'rails_12factor'
 gem 'pg'
-gem 'twitter-bootstrap-rails' , :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'twitter-bootstrap-rails'
